@@ -1,0 +1,118 @@
+////////////////// обнуление стилей //////////////////
+*
+  margin: 0
+  padding: 0
+  border: 0
+
+*, *:before, *:after
+  box-sizing: border-box
+
+a:focus, a:active
+  outline: none
+
+a:focus, a:active
+  outline: none
+
+nav, footer, header, aside
+  display: block
+
+html, body
+  height: 100%
+  width: 100%
+  font-size: 100%
+  line-height: 1
+  -ms-text-size-adjust: 100%
+  -moz-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%
+
+input, button, textarea
+  font-family: inherit
+
+input::-ms-clear
+  display: none
+
+button
+  cursor: pointer
+
+button::-moz-focus-inner
+  padding: 0
+  border: 0
+
+a, a:visited, a:hover
+  text-decoration: none
+
+ul li
+  list-style: none
+
+img
+  vertical-align: top
+
+h1, h2, h3, h4, h5, h6
+  font-size: inherit
+  font-weight: 400
+
+////////////////// общие стили //////////////////
+
+header,
+main
+  padding: 0 calc(50vw - 720px)
+
+.wrapper
+  display: grid
+  grid-template-rows: 100px auto 50px
+  min-height: 100vh
+
+.header
+  background: #343a40
+  display: grid
+  justify-content: right
+  align-content: center
+
+  &__button
+    padding: .5rem 1rem
+    font-size: 1.25rem
+    line-height: 1.5
+    border-radius: .3rem
+    float: right
+    height: min-content
+    width: min-content
+    &:hover
+      background: #dcdcdc
+    &:focus
+      outline: none
+
+.products
+  padding-top: 50px
+  display: flex
+  flex-flow: row wrap
+  justify-content: space-between
+  max-width: 100%
+
+.product-item
+  display: flex
+  flex-direction: column
+  width: 263px
+  margin-bottom: 25px
+  position: relative
+  transition-timing-function: cubic-bezier(.48, .46, 0, 1.08)
+  transition: all 0.2s
+  animation: shadow-drop-2-center 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+
+  &:hover
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16)
+    transform: scale(1.008)
+
+  & button
+    padding: .5rem 1rem
+    font-size: 1rem
+    line-height: 1.5
+    border-radius: .3rem
+    float: right
+    height: min-content
+    width: 100%
+    white-space: nowrap
+    &:hover
+      background: #dcdcdc
+    &:focus
+      outline: none
+
