@@ -6,14 +6,13 @@ const products = [
 ];
 
 /**
- * Функция свойства объекта  преобразует их и возвращает строку
+ * Функция получает свойства объекта и отображает карточку одного товара на странице
  * @param title название товара
  * @param price цена товара
  * @param img картинка если есть
- * @return {string} часть кода HTML (для одного продукта)
  */
 const renderProduct = (title, price, img = 'http://dummyimage.com/260x350/99cccc.jpg/0b0b0b&text=Фото+товара!') => {
-    return `<div class="product-item">
+    document.querySelector('.products').innerHTML += `<div class="product-item">
                 <h3>${title}</h3>
                 <img src="${img}" alt="">
                 <p>Цена ${price}</p>
@@ -26,12 +25,7 @@ const renderProduct = (title, price, img = 'http://dummyimage.com/260x350/99cccc
  * @param list
  */
 const renderProducts = list => {
-    const productList = list.map(item => renderProduct(item.title, item.price));
-    for (let i = 0; i < productList.length; i++) {
-        document.querySelector('.products').innerHTML += productList[i];
-    }
-    // console.log(productList);
-    // document.querySelector('.products').innerHTML = productList;
+    list.map(item => renderProduct(item.title, item.price));
 };
 
 renderProducts(products);
