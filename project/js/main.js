@@ -25,6 +25,9 @@ class ProductList {
         this.getProducts()
             .then((data) => {
                 this.goods = [...data];
+                this.goods.forEach((product) => {
+                    product.quantity_product = 1;
+                })
                 this.render();
                 new EventButtonsBy(this.goods);
             });
@@ -59,6 +62,8 @@ class ProductList {
             block.insertAdjacentHTML('beforeend', productObject.render());
         }
     }
+
+    static productObjectInBasket = [];
 }
 
 /**
@@ -67,11 +72,12 @@ class ProductList {
  * 2. html разметку одного товара
  */
 class ProductItem {
-    constructor(product, img = 'http://placehold.it/200x150') {
+    constructor(product, img = 'http://placehold.it/200x150', quantity_product = 1) {
         this.product_name = product.product_name;
         this.price = product.price;
         this.id_product = product.id_product;
         this.img = img;
+        this.quantity_product = quantity_product;
     }
 
     /**
@@ -154,7 +160,7 @@ class EventButtonsBy {
 }
 
 /**
- * Класс
+ * Класс корзины
  * 1.
  */
 class BasketList {
@@ -162,8 +168,8 @@ class BasketList {
         this.idProductElement = idProductElement;
         this.goods = goods;
 
-        this.productObject = {};
         this.addProductToBasket();
+        this.removeFromCart();
     }
 
     /**
@@ -177,16 +183,56 @@ class BasketList {
      * 5. в корзину помещает html разметку выбранного товара
      */
     addProductToBasket = () => {
-        const basketList = document.querySelector('.basketList');
-        this.goods.forEach(good => {
-            if (this.idProductElement === good.id_product) {
-                this.productObject = good;
-                this.renderTotalPrice();
-                const productObjectToBasket = new ProductItemInToBasket(good);
-                basketList.insertAdjacentHTML('beforeend', productObjectToBasket.render());
+        const basketList = document.querySelector('.basketList__content');
+
+        this.goods.forEach((product) => {
+            if (product.id_product === this.idProductElement) {
+                console.log(this.checkForPresenceInBasket())
+                if (ProductList.productObjectInBasket.length === 0 || this.checkForPresenceInBasket()) {
+                    ProductList.productObjectInBasket.push(product);
+                } else {
+                    this.checkInBasket()
+                }
             }
         })
+        basketList.textContent = "";
+        ProductList.productObjectInBasket.forEach((product) => {
+            const productObjectToBasket = new ProductItemInToBasket(product);
+            basketList.insertAdjacentHTML('beforeend', productObjectToBasket.render());
+            this.renderTotalPrice();
+
+        })
+
+
     }
+
+    /**
+     * Метод
+     * 1. проверяет есть ли в корзине аналогичный товар
+     * @return {boolean}
+     */
+    checkForPresenceInBasket = () => {
+        let status = 0;
+        ProductList.productObjectInBasket.forEach((product) => {
+            if (product.id_product === this.idProductElement) {
+                status = ++status
+            }
+        })
+        if (status === 0)
+            return true
+    }
+    /**
+     * Метод
+     * 1. Увеличивает на 1 количество товаров в корзине
+     */
+    checkInBasket = () => {
+        ProductList.productObjectInBasket.forEach((product) => {
+            if (product.id_product === this.idProductElement) {
+                product.quantity_product++;
+            }
+        })
+    };
+
     /**
      * Метод
      * 1. в константу totalPriseInBasket помещает html элемент для отображения суммы товаров в корзине
@@ -197,16 +243,31 @@ class BasketList {
     renderTotalPrice = () => {
         const totalPriseInBasket = document.querySelector('.basketList__total');
         totalPriseInBasket.textContent = "";
-        BasketList.totalPrice += Number(this.productObject.price);
+        ProductList.productObjectInBasket.forEach((product) => {
+            BasketList.totalPrice += (Number(product.price) * Number(product.quantity_product));
+        });
+
         totalPriseInBasket.insertAdjacentText('beforeend', `${BasketList.totalPrice}`)
     };
-    //TODO переделать на массив и считать сумму элементов массива
-    // переменная для отслеживания суммы товаров
+
     static totalPrice = 0;
 
-    //TODO метод для удаления товаров из корзины
-    //логика сравнение по id
+    removeFromCart = () => {
+       let buttonsRemoveCart = document.querySelectorAll(".buttonRemoveCart");
+        buttonsRemoveCart.forEach(buttonRemove => {
+            buttonRemove.addEventListener('click', event => {
+                const buttonRemove = event.currentTarget;
+                const productElementToCart = buttonRemove.closest('.basketList__product-item');
+                let idProductElement = Number(productElementToCart.dataset.id_product);
+                ProductList.productObjectInBasket.forEach((product) =>{
+                    if (product.id_product === idProductElement){
+                        product.quantity_product--
+                    }
+                })
 
+            })
+        });
+    }
 }
 
 /**
@@ -218,6 +279,8 @@ class ProductItemInToBasket {
         this.price = product.price;
         this.id_product = product.id_product;
         this.img = img;
+        this.quantity_product = product.quantity_product;
+
     }
 
     render() {
@@ -226,7 +289,8 @@ class ProductItemInToBasket {
                     <div class="basketList__description">
                         <h3>${this.product_name}</h3>
                         <p>${this.price} \u20bd</p>
-                        <button class="">удалить</button>
+                        <p>${this.quantity_product}</p>
+                        <button class="buttonRemoveCart">удалить</button>
                     </div>
                 </div>`;
     }//TODO дописать дата атрибут для отображения повторяющегося товара
