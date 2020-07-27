@@ -29,7 +29,7 @@ class ProductList {
                     product.quantity_product = 1;
                 })
                 this.render();
-                new EventButtonsBy(this.goods);
+                new EventButtons(this.goods);
             });
     }
 
@@ -103,12 +103,13 @@ class ProductItem {
  * 2. отображает или скрывает корзину
  * 3. инициализирует объекты корзины на которые кликнул user
  */
-class EventButtonsBy {
+class EventButtons {
     constructor(goods) {
         this.goods = goods;
 
         this.eventListenersButtonsBy();
         this.eventListenersButtonsBasket();
+        this.removeFromCart();
     }
 
     /**
@@ -157,6 +158,8 @@ class EventButtonsBy {
             buttonStatus = 0;
         });
     }
+
+
 }
 
 /**
@@ -169,7 +172,7 @@ class BasketList {
         this.goods = goods;
 
         this.addProductToBasket();
-        this.removeFromCart();
+
     }
 
     /**
@@ -183,8 +186,6 @@ class BasketList {
      * 5. в корзину помещает html разметку выбранного товара
      */
     addProductToBasket = () => {
-        const basketList = document.querySelector('.basketList__content');
-
         this.goods.forEach((product) => {
             if (product.id_product === this.idProductElement) {
                 console.log(this.checkForPresenceInBasket())
@@ -195,14 +196,18 @@ class BasketList {
                 }
             }
         })
+        this.renderBasketList();
+        this.removeFromCart();
+    }
+
+    renderBasketList = () => {
+        const basketList = document.querySelector('.basketList__content');
         basketList.textContent = "";
         ProductList.productObjectInBasket.forEach((product) => {
             const productObjectToBasket = new ProductItemInToBasket(product);
             basketList.insertAdjacentHTML('beforeend', productObjectToBasket.render());
-            this.renderTotalPrice();
-
         })
-
+        this.renderTotalPrice();
 
     }
 
@@ -241,34 +246,35 @@ class BasketList {
      * 4. отображает сумму товаров в html разметке
      */
     renderTotalPrice = () => {
+        let totalPrice = 0;
         const totalPriseInBasket = document.querySelector('.basketList__total');
         totalPriseInBasket.textContent = "";
-        ProductList.productObjectInBasket.forEach((product) => {
-            BasketList.totalPrice += (Number(product.price) * Number(product.quantity_product));
-        });
-
-        totalPriseInBasket.insertAdjacentText('beforeend', `${BasketList.totalPrice}`)
+        for(let product of ProductList.productObjectInBasket){
+            totalPrice +=( Number(product.price) * Number(product.quantity_product));
+        }
+        totalPriseInBasket.insertAdjacentText('beforeend', `${totalPrice}`)
     };
 
-    static totalPrice = 0;
-
     removeFromCart = () => {
-       let buttonsRemoveCart = document.querySelectorAll(".buttonRemoveCart");
+        let buttonsRemoveCart = document.querySelectorAll(".buttonRemoveCart");
         buttonsRemoveCart.forEach(buttonRemove => {
             buttonRemove.addEventListener('click', event => {
                 const buttonRemove = event.currentTarget;
                 const productElementToCart = buttonRemove.closest('.basketList__product-item');
                 let idProductElement = Number(productElementToCart.dataset.id_product);
-                ProductList.productObjectInBasket.forEach((product) =>{
-                    if (product.id_product === idProductElement){
+                ProductList.productObjectInBasket.forEach((product) => {
+                    if (product.id_product === idProductElement) {
                         product.quantity_product--
                     }
                 })
-
+                this.renderTotalPrice();
+                this.renderBasketList();
+                this.removeFromCart();
             })
         });
     }
 }
+
 
 /**
  * Класс для отрисовки элементов корзины
@@ -293,7 +299,7 @@ class ProductItemInToBasket {
                         <button class="buttonRemoveCart">удалить</button>
                     </div>
                 </div>`;
-    }//TODO дописать дата атрибут для отображения повторяющегося товара
+    }
 }
 
 new ProductList();
