@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/my-style.css">
 </head>
 <body>
 <div class="wrapper" id="wrapper-id">
-    <header class="header">
-        <h3 class="header__h3">Интернет магазин</h3>
-        <div class="basket-box">
-            <button class="btn-cart header__button" type="button">Корзина</button>
-            <div class="basketList">
-                <p>Сумма равна:  <span class="basketList__total"></span></p>
-                <div class="basketList__content"></div>
-            </div>
-        </div>
+    <header>
+    <div class="logo">Интернет-магазин</div>
+    <div class="cart">
+        <form action="#" class="search-form">
+            <input type="text" class="search-field">
+            <button class="btn-search" type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+        <button class="btn-cart" type="button">Корзина</button>
+        <div class="cart-block invisible"></div>
+    </div>
     </header>
     <main>
         <div class="products"></div>
     </main>
-    <script src="./js/main.js"></script>
+
 </div>
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+        integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+        crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

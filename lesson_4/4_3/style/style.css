@@ -1,0 +1,34 @@
+.wrapper {
+  display: grid;
+  padding: 0 calc(50vw - 200px);
+  grid-row-gap: 10px;
+}
+
+.button {
+  width: min-content;
+}
+
+label {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.input {
+  height: 46px;
+  width: 276px;
+  background-color: #e1e1e1;
+  border-radius: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.input__red {
+  border: 1px solid red;
+}
+.input__green {
+  border: 1px solid green;
+}
+
+/*# sourceMappingURL=style.css.map */
