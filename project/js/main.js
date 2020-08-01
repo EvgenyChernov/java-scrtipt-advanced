@@ -10,23 +10,8 @@ const app = new Vue({
         isEmptyCart: true,
         cartProducts: [],
         searchLine: '',
-
-
     },
     methods: {
-        filterGoods() {
-            const regexp = new RegExp(this.searchLine, 'i');
-            this.filtered = this.products.filter(product => regexp.test(product.product_name));
-            console.log(this.filtered)
-            //TODO товар удаляется но нужно переделать на скрытие 
-            this.products.forEach(el => {
-                if (!this.filtered.includes(el)) {
-                    this.products.splice(this.cartProducts.indexOf(el), 1);
-                } else {
-                }
-            })
-
-        },
         getJson(url) {
             return fetch(url)
                 .then(result => result.json())
@@ -34,6 +19,21 @@ const app = new Vue({
                     console.log(error);
                 })
         },
+
+        /**
+         * метод поиска объектов
+         */
+        filterGoods() {
+            const regexp = new RegExp(this.searchLine, 'i');
+            this.filtered = this.products.filter(product => regexp.test(product.product_name));
+            console.log(this.filtered)
+            this.products.forEach(el => {
+                if (!this.filtered.includes(el)) {
+                    document.getElementById(el.id_product).classList.add("invisible");
+                } else document.getElementById(el.id_product).classList.remove("invisible");
+            })
+        },
+
         /**
          * добвавить продукт в корзину
          * @param elem
@@ -75,7 +75,7 @@ const app = new Vue({
     created() {
         this.getJson(`${API + this.catalogUrl}`)
             .then(data => {
-                for(let el of data){
+                for (let el of data) {
                     this.products.push(el);
                 }
             });

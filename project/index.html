@@ -41,7 +41,7 @@
     </header>
     <main>
         <div class="products">
-            <div  v-for="product of products" :key="product.id_product"  class="product-item">
+            <div v-for="product of products" :key="product.id_product" class="product-item" :id="product.id_product">
                 <img :src="imgCatalog" alt="Some img">
                 <div class="desc">
                     <h3>{{product.product_name}}</h3>
