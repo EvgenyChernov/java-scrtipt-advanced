@@ -13,3 +13,11 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 G
 styles/my-style.css.map,5\f\5f2946312995c8e3de4045afa171bc6d39501ea5
+@
+getProducts.json,b\e\be66adcc6e0ce81c6fc56c593a8fbc1b8b93c097
+>
+js/CartComp.js,2\3\231c5479c294444a4e6089acf2f16b1a806ce270
+@
+js/ProducComp.js,c\a\ca5d0b76376613380bb9e4b06a5cceacf6632ace
+@
+js/SearchComp.js,7\7\77b806ce246edb00beb539f4b88ad132c56610cb

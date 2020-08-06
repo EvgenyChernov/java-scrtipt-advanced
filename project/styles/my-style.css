@@ -105,12 +105,6 @@ button:focus {
   align-self: center;
 }
 
-/*.products */
-/*display: flex*/
-/*justify-content: space-between*/
-/*flex-wrap: wrap*/
-/*padding: 40px 80px*/
-/**/
 .products {
   column-gap: 30px;
   display: grid;
@@ -144,6 +138,7 @@ img {
 }
 
 .cart {
+  display: flex;
   position: relative;
 }
 
@@ -183,7 +178,7 @@ img {
   border: 1px solid transparent;
   color: #fafafa;
   border-radius: 5px;
-  transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.4s;
   cursor: pointer;
 }
 
