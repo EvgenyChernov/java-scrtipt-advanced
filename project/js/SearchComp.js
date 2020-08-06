@@ -4,6 +4,7 @@ Vue.component('search', {
             catalogUrl: '/catalogData.json',
             products: [],
             filtered: [],
+            userSearch: '',
         }
     },
     methods: {
@@ -11,6 +12,15 @@ Vue.component('search', {
             let regexp = new RegExp(this.userSearch, 'i');
             this.filtered = this.products.filter(el => regexp.test(el.product_name));
         }
+    },
+    mounted() {
+        this.$parent.getJson(`${API + this.catalogUrl}`)
+            .then(data => {
+                for (let el of data) {
+                    this.products.push(el);
+                    this.filtered.push(el);
+                }
+            });
     },
     template: `<form action="#" class="search-form" @submit.prevent="filter">
                     <input type="text" class="search-field" v-model="userSearch">

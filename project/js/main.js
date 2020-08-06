@@ -10,7 +10,7 @@ const app = new Vue({
             return fetch(url)
                 .then(result => result.json())
                 .catch(error => {
-                    // error
+                    this.$refs.error.showErrors();
                     console.log(error);
                 })
         },
