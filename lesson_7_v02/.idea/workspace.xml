@@ -20,40 +20,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="582a6ebc-2817-44e7-ad45-29f5953dd7d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/lesson_7_v02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/CartComp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/ErrorComp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/FilterComp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/ProducComp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/cartRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/db/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/db/userCart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/handler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/db/stats.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/stast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/userCart.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/userCart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1fqdltN9WNmA0QD5wm5bEfYoSrs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596949713335</updated>
-      <workItem from="1596949715178" duration="2706000" />
+      <workItem from="1596949715178" duration="10233000" />
     </task>
     <servers />
   </component>
@@ -89,5 +83,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="651" y="235" key="#Inspections" timestamp="1596958029217">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="651" y="235" key="#Inspections/0.0.2048.1112/-1920.0.1536.824@0.0.2048.1112" timestamp="1596958029217" />
   </component>
 </project>
