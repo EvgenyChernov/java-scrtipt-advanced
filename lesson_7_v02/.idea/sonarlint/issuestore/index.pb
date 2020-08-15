@@ -23,3 +23,5 @@ D
 server/cartRouter.js,8\8\88e9c86d240985608ac22b3cc7fbdb425eff0c9c
 G
 server/db/userCart.json,7\2\72a5f733a1bac80fedb330bd9e0433b1d077ba32
+G
+public/js/ProducComp.js,a\7\a75dd9e20f242fb110098bb625b91c0349aab851

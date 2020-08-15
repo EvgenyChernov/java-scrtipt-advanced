@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="582a6ebc-2817-44e7-ad45-29f5953dd7d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/db/stats.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/stast.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/stats.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/db/userCart.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/userCart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596949713335</updated>
       <workItem from="1596949715178" duration="10233000" />
+      <workItem from="1596961469054" duration="290000" />
     </task>
     <servers />
   </component>
@@ -83,6 +79,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="235" key="#Inspections" timestamp="1596958029217">
