@@ -20,25 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="988bd58a-a990-498c-a26a-244d2c4f94ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/251b73531beeb56ffea44921d186ca8d67cf3b80" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/4172a070f9aaa9a5359ed2846ee20b56ef481cf6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/72a5f733a1bac80fedb330bd9e0433b1d077ba32" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/CartComp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/ErrorComp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/FilterComp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/ProducComp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public" beforeDir="false" afterPath="$PROJECT_DIR$/public" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/CartComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/CartComp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/FilterComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/FilterComp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/shopping-cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/style/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/style/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/products.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/db/stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/stats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/userCart.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/userCart.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +43,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/public" />
   </component>
   <component name="ProjectId" id="1g7yc29aJ0I9IjT8BGcMqLWx6VW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -66,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
@@ -103,7 +93,16 @@
       <workItem from="1597539567425" duration="299000" />
       <workItem from="1597550143568" duration="6701000" />
       <workItem from="1597557048653" duration="29000" />
+      <workItem from="1597557899516" duration="6013000" />
     </task>
+    <task id="LOCAL-00001" summary="Задание восьмого урока v_04 ( работа на главной странице завершена, товары и корзина работает)">
+      <created>1597558036574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597558036574</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +119,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Задание восьмого урока v_04 ( работа на главной странице завершена, товары и корзина работает)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание восьмого урока v_04 ( работа на главной странице завершена, товары и корзина работает)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="694" y="335" key="EditFileWatcherDialog" timestamp="1597537269959">
@@ -146,5 +149,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="533" y="201" key="SettingsEditor/0.0.2048.1112/-1920.0.1536.824@0.0.2048.1112" timestamp="1597480968181" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1597577864475">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112/-1920.0.1536.824@0.0.2048.1112" timestamp="1597577864475" />
   </component>
 </project>
