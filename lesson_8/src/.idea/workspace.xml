@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="988bd58a-a990-498c-a26a-244d2c4f94ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/js/CartComp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/ErrorComp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/FilterComp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/ProducComp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/shopping-cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/style.sass" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/public" />
+  </component>
+  <component name="ProjectId" id="1g7yc29aJ0I9IjT8BGcMqLWx6VW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Geekbrains\обучение практика\5 Продвинутый JavaScript\java-scrtipt-advanced\lesson_8_final_homework\src\public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/server.js" working-dir="$PROJECT_DIR$/server">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.server.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="988bd58a-a990-498c-a26a-244d2c4f94ef" name="Default Changelist" comment="" />
+      <created>1597480002793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597480002793</updated>
+      <workItem from="1597480004411" duration="859000" />
+      <workItem from="1597480896157" duration="5366000" />
+      <workItem from="1597536211987" duration="208000" />
+      <workItem from="1597536468074" duration="3066000" />
+      <workItem from="1597539567425" duration="299000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="694" y="335" key="EditFileWatcherDialog" timestamp="1597537269959">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="694" y="335" key="EditFileWatcherDialog/0.0.2048.1112/-1920.0.1536.824@0.0.2048.1112" timestamp="1597537269959" />
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1597480693337">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.0.1536.824@0.0.2048.1112" timestamp="1597480693337" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1597480693337">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.0.1536.824@0.0.2048.1112" timestamp="1597480693337" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1597480693337">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.0.1536.824@0.0.2048.1112" timestamp="1597480693337" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1597480693337">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.0.1536.824@0.0.2048.1112" timestamp="1597480693337" />
+    <state x="533" y="201" key="SettingsEditor" timestamp="1597480968181">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="533" y="201" key="SettingsEditor/0.0.2048.1112/-1920.0.1536.824@0.0.2048.1112" timestamp="1597480968181" />
+  </component>
+</project>
