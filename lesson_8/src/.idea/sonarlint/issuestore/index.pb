@@ -25,3 +25,9 @@ G
 public/style/style.sass,d\3\d39167de07ab7770a7c42e6b59b7d39af2d19920
 G
 server/db/products.json,6\3\63a03bd135121b95136f7140bb50181c0851dd4c
+C
+public/catalog.html,2\5\251b73531beeb56ffea44921d186ca8d67cf3b80
+D
+server/db/stats.json,4\1\4172a070f9aaa9a5359ed2846ee20b56ef481cf6
+G
+server/db/userCart.json,7\2\72a5f733a1bac80fedb330bd9e0433b1d077ba32

@@ -20,16 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="988bd58a-a990-498c-a26a-244d2c4f94ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/251b73531beeb56ffea44921d186ca8d67cf3b80" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/4172a070f9aaa9a5359ed2846ee20b56ef481cf6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/72a5f733a1bac80fedb330bd9e0433b1d077ba32" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/js/CartComp.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/js/ErrorComp.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/js/FilterComp.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/js/ProducComp.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public" beforeDir="false" afterPath="$PROJECT_DIR$/public" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/shopping-cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/style/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/style/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/stats.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +54,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/public" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1g7yc29aJ0I9IjT8BGcMqLWx6VW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -92,6 +101,8 @@
       <workItem from="1597536211987" duration="208000" />
       <workItem from="1597536468074" duration="3066000" />
       <workItem from="1597539567425" duration="299000" />
+      <workItem from="1597550143568" duration="6701000" />
+      <workItem from="1597557048653" duration="29000" />
     </task>
     <servers />
   </component>
