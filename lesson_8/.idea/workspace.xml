@@ -20,13 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65c69e19-7ef4-4f1e-b660-3c6a94320cd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/public/js/CartComp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/js/ErrorComp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/js/FilterComp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/js/ProducComp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/sonarlint/issuestore/2/5/251b73531beeb56ffea44921d186ca8d67cf3b80" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/sonarlint/issuestore/2/5/251b73531beeb56ffea44921d186ca8d67cf3b80" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/sonarlint/issuestore/f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/sonarlint/issuestore/f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public" beforeDir="false" afterPath="$PROJECT_DIR$/src/public" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/js/CartComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/js/CartComp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/js/FilterComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/js/FilterComp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/public/shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/shopping-cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/db/stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db/stats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/db/userCart.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db/userCart.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +62,7 @@
       <updated>1597534749834</updated>
       <workItem from="1597534751403" duration="207000" />
       <workItem from="1597535023580" duration="886000" />
+      <workItem from="1597654281906" duration="24000" />
     </task>
     <servers />
   </component>

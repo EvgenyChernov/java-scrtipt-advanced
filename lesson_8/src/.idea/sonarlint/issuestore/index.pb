@@ -31,3 +31,9 @@ D
 server/db/stats.json,4\1\4172a070f9aaa9a5359ed2846ee20b56ef481cf6
 G
 server/db/userCart.json,7\2\72a5f733a1bac80fedb330bd9e0433b1d077ba32
+F
+public/style/style.css,1\9\19dc8af03bc64e0faf5bbb906c6f096c7e29f96d
+J
+public/style/style.css.map,7\e\7ed0764cf7343320a1862142411a3788c398545a
+I
+public/shopping-cart.html,d\d\dd2172a78dc8da40867177b2a398a930225e8295

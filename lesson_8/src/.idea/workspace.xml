@@ -20,12 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="988bd58a-a990-498c-a26a-244d2c4f94ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/251b73531beeb56ffea44921d186ca8d67cf3b80" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/251b73531beeb56ffea44921d186ca8d67cf3b80" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public" beforeDir="false" afterPath="$PROJECT_DIR$/public" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/CartComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/CartComp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/FilterComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/FilterComp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/shopping-cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/products.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/db/stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/stats.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/db/userCart.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/userCart.json" afterDir="false" />
     </list>
@@ -93,7 +97,10 @@
       <workItem from="1597539567425" duration="299000" />
       <workItem from="1597550143568" duration="6701000" />
       <workItem from="1597557048653" duration="29000" />
-      <workItem from="1597557899516" duration="6013000" />
+      <workItem from="1597557899516" duration="6283000" />
+      <workItem from="1597607211549" duration="2401000" />
+      <workItem from="1597644347573" duration="614000" />
+      <workItem from="1597654341545" duration="4398000" />
     </task>
     <task id="LOCAL-00001" summary="Задание восьмого урока v_04 ( работа на главной странице завершена, товары и корзина работает)">
       <created>1597558036574</created>
