@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65c69e19-7ef4-4f1e-b660-3c6a94320cd3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/.idea/sonarlint/issuestore/2/5/251b73531beeb56ffea44921d186ca8d67cf3b80" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/sonarlint/issuestore/2/5/251b73531beeb56ffea44921d186ca8d67cf3b80" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/sonarlint/issuestore/f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/sonarlint/issuestore/f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public" beforeDir="false" afterPath="$PROJECT_DIR$/src/public" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/js/CartComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/js/CartComp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/js/FilterComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/js/FilterComp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/shopping-cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/db/stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db/stats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/db/userCart.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/db/userCart.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/public" />
+  </component>
+  <component name="ProjectId" id="1g9lZp3MR1RYtOBpZ6fdC4SyWo8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65c69e19-7ef4-4f1e-b660-3c6a94320cd3" name="Default Changelist" comment="" />
+      <created>1597534749834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597534749834</updated>
+      <workItem from="1597534751403" duration="207000" />
+      <workItem from="1597535023580" duration="886000" />
+      <workItem from="1597654281906" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
